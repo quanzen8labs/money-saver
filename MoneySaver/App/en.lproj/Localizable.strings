@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  MoneySaver
+
+  Created by macbook on 07/11/2022.
+  
+*/
+
+// MARK: TabItem
+"tab.item.title.home" = "Home";
+"tab.item.title.calendar" = "Calendar";
+"tab.item.title.setting" = "Setting";

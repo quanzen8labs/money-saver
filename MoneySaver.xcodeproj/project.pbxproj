@@ -7,16 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2970D82919163600B09CD9 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = FA2970D72919163600B09CD9 /* Rswift */; };
+		FA2970DA2919163600B09CD9 /* RswiftDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FA2970D92919163600B09CD9 /* RswiftDynamic */; };
+		FA3392712918C09600FB3C3F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392702918C09600FB3C3F /* User.swift */; };
+		FA3392732918C0A200FB3C3F /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392722918C0A200FB3C3F /* Receipt.swift */; };
+		FA3392782918F0B700FB3C3F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392772918F0B700FB3C3F /* TabBarView.swift */; };
+		FA33927A2918F0BF00FB3C3F /* TabBarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392792918F0BF00FB3C3F /* TabBarStore.swift */; };
+		FA33927F2918F1FC00FB3C3F /* DeviceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33927E2918F1FC00FB3C3F /* DeviceClient.swift */; };
+		FA3392822918F26900FB3C3F /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392812918F26900FB3C3F /* DeviceUtil.swift */; };
+		FA3392842918F30300FB3C3F /* LoggerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392832918F30300FB3C3F /* LoggerClient.swift */; };
+		FA3392872918F38500FB3C3F /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = FA3392862918F38500FB3C3F /* SwiftyBeaver */; };
+		FA33928F2918F62500FB3C3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA3392912918F62500FB3C3F /* Localizable.strings */; };
+		FA3392982918FA3000FB3C3F /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392972918FA3000FB3C3F /* AppStore.swift */; };
+		FA33929B2918FBBF00FB3C3F /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = FA33929A2918FBBF00FB3C3F /* SFSafeSymbols */; };
+		FA3392A02918FF2700FB3C3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33929F2918FF2700FB3C3F /* HomeView.swift */; };
+		FA3392A22918FF5300FB3C3F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A12918FF5300FB3C3F /* CalendarView.swift */; };
+		FA3392A42918FF6B00FB3C3F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A32918FF6B00FB3C3F /* SettingView.swift */; };
+		FA3392A62919061700FB3C3F /* AppDelegateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A52919061700FB3C3F /* AppDelegateStore.swift */; };
+		FA3392A829190EB900FB3C3F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A729190EB900FB3C3F /* R.generated.swift */; };
 		FAA0A48E2916416D00DFF749 /* MoneySaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0A48D2916416D00DFF749 /* MoneySaverApp.swift */; };
-		FAA0A4902916416D00DFF749 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0A48F2916416D00DFF749 /* ContentView.swift */; };
 		FAA0A4922916416F00DFF749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA0A4912916416F00DFF749 /* Assets.xcassets */; };
 		FAA0A4952916416F00DFF749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA0A4942916416F00DFF749 /* Preview Assets.xcassets */; };
+		FAA0A49F291644CE00DFF749 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FAA0A49E291644CE00DFF749 /* ComposableArchitecture */; };
+		FAA0A4A1291644CE00DFF749 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = FAA0A4A0291644CE00DFF749 /* Dependencies */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3392702918C09600FB3C3F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA3392722918C0A200FB3C3F /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		FA3392772918F0B700FB3C3F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FA3392792918F0BF00FB3C3F /* TabBarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarStore.swift; sourceTree = "<group>"; };
+		FA33927E2918F1FC00FB3C3F /* DeviceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceClient.swift; sourceTree = "<group>"; };
+		FA3392812918F26900FB3C3F /* DeviceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtil.swift; sourceTree = "<group>"; };
+		FA3392832918F30300FB3C3F /* LoggerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerClient.swift; sourceTree = "<group>"; };
+		FA3392902918F62500FB3C3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA3392972918FA3000FB3C3F /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		FA33929F2918FF2700FB3C3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA3392A12918FF5300FB3C3F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		FA3392A32918FF6B00FB3C3F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		FA3392A52919061700FB3C3F /* AppDelegateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateStore.swift; sourceTree = "<group>"; };
+		FA3392A729190EB900FB3C3F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		FAA0A48A2916416D00DFF749 /* MoneySaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneySaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA0A48D2916416D00DFF749 /* MoneySaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySaverApp.swift; sourceTree = "<group>"; };
-		FAA0A48F2916416D00DFF749 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAA0A4912916416F00DFF749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA0A4942916416F00DFF749 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +58,113 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2970D82919163600B09CD9 /* Rswift in Frameworks */,
+				FA33929B2918FBBF00FB3C3F /* SFSafeSymbols in Frameworks */,
+				FAA0A49F291644CE00DFF749 /* ComposableArchitecture in Frameworks */,
+				FAA0A4A1291644CE00DFF749 /* Dependencies in Frameworks */,
+				FA3392872918F38500FB3C3F /* SwiftyBeaver in Frameworks */,
+				FA2970DA2919163600B09CD9 /* RswiftDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA33926E2918C08000FB3C3F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FA33926F2918C08700FB3C3F /* Enities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FA33926F2918C08700FB3C3F /* Enities */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392702918C09600FB3C3F /* User.swift */,
+				FA3392722918C0A200FB3C3F /* Receipt.swift */,
+			);
+			path = Enities;
+			sourceTree = "<group>";
+		};
+		FA3392762918EFCE00FB3C3F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392772918F0B700FB3C3F /* TabBarView.swift */,
+				FA3392792918F0BF00FB3C3F /* TabBarStore.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FA33927B2918F1DB00FB3C3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392A729190EB900FB3C3F /* R.generated.swift */,
+				FA33927C2918F1E100FB3C3F /* Tools */,
+				FA3392912918F62500FB3C3F /* Localizable.strings */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA33927C2918F1E100FB3C3F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392802918F25C00FB3C3F /* Utilities */,
+				FA33927D2918F1F100FB3C3F /* Clients */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FA33927D2918F1F100FB3C3F /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				FA33927E2918F1FC00FB3C3F /* DeviceClient.swift */,
+				FA3392832918F30300FB3C3F /* LoggerClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		FA3392802918F25C00FB3C3F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392812918F26900FB3C3F /* DeviceUtil.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FA3392962918FA1800FB3C3F /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392972918FA3000FB3C3F /* AppStore.swift */,
+				FA3392A52919061700FB3C3F /* AppDelegateStore.swift */,
+			);
+			path = DataFlow;
+			sourceTree = "<group>";
+		};
+		FA33929C2918FBFE00FB3C3F /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA33929F2918FF2700FB3C3F /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		FA33929D2918FC0900FB3C3F /* CalendarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392A12918FF5300FB3C3F /* CalendarView.swift */,
+			);
+			path = CalendarScreen;
+			sourceTree = "<group>";
+		};
+		FA33929E2918FC1400FB3C3F /* SettingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392A32918FF6B00FB3C3F /* SettingView.swift */,
+			);
+			path = SettingScreen;
+			sourceTree = "<group>";
+		};
 		FAA0A4812916416D00DFF749 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +184,11 @@
 		FAA0A48C2916416D00DFF749 /* MoneySaver */ = {
 			isa = PBXGroup;
 			children = (
+				FA33927B2918F1DB00FB3C3F /* App */,
+				FA33926E2918C08000FB3C3F /* Domain */,
+				FA3392962918FA1800FB3C3F /* DataFlow */,
+				FAA0A4A2291646A700DFF749 /* Screens */,
 				FAA0A48D2916416D00DFF749 /* MoneySaverApp.swift */,
-				FAA0A48F2916416D00DFF749 /* ContentView.swift */,
 				FAA0A4912916416F00DFF749 /* Assets.xcassets */,
 				FAA0A4932916416F00DFF749 /* Preview Content */,
 			);
@@ -67,6 +203,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FAA0A4A2291646A700DFF749 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FA3392762918EFCE00FB3C3F /* TabBar */,
+				FA33929C2918FBFE00FB3C3F /* HomeScreen */,
+				FA33929D2918FC0900FB3C3F /* CalendarScreen */,
+				FA33929E2918FC1400FB3C3F /* SettingScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA0A4982916416F00DFF749 /* Build configuration list for PBXNativeTarget "MoneySaver" */;
 			buildPhases = (
+				FA3392932918F79300FB3C3F /* R.Swift */,
 				FAA0A4862916416D00DFF749 /* Sources */,
 				FAA0A4872916416D00DFF749 /* Frameworks */,
 				FAA0A4882916416D00DFF749 /* Resources */,
@@ -83,6 +231,14 @@
 			dependencies = (
 			);
 			name = MoneySaver;
+			packageProductDependencies = (
+				FAA0A49E291644CE00DFF749 /* ComposableArchitecture */,
+				FAA0A4A0291644CE00DFF749 /* Dependencies */,
+				FA3392862918F38500FB3C3F /* SwiftyBeaver */,
+				FA33929A2918FBBF00FB3C3F /* SFSafeSymbols */,
+				FA2970D72919163600B09CD9 /* Rswift */,
+				FA2970D92919163600B09CD9 /* RswiftDynamic */,
+			);
 			productName = MoneySaver;
 			productReference = FAA0A48A2916416D00DFF749 /* MoneySaver.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +267,12 @@
 				Base,
 			);
 			mainGroup = FAA0A4812916416D00DFF749;
+			packageReferences = (
+				FAA0A49D291644CE00DFF749 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				FA3392852918F38500FB3C3F /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				FA3392992918FBBF00FB3C3F /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+				FA2970D62919163600B09CD9 /* XCRemoteSwiftPackageReference "R.swift" */,
+			);
 			productRefGroup = FAA0A48B2916416D00DFF749 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,23 +288,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA0A4952916416F00DFF749 /* Preview Assets.xcassets in Resources */,
+				FA33928F2918F62500FB3C3F /* Localizable.strings in Resources */,
 				FAA0A4922916416F00DFF749 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FA3392932918F79300FB3C3F /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"",
+			);
+			inputPaths = (
+				"",
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/MoneySaver/App/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which rswift >/dev/null; then\n  rswift generate --generators string \"$SRCROOT/MoneySaver/App/R.generated.swift\"\nelse\n  echo \"warning: R.Swift not installed, download from https://github.com/mac-cain13/R.swift\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAA0A4862916416D00DFF749 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA0A4902916416D00DFF749 /* ContentView.swift in Sources */,
+				FA3392822918F26900FB3C3F /* DeviceUtil.swift in Sources */,
+				FA3392A829190EB900FB3C3F /* R.generated.swift in Sources */,
+				FA3392982918FA3000FB3C3F /* AppStore.swift in Sources */,
+				FA3392A22918FF5300FB3C3F /* CalendarView.swift in Sources */,
+				FA33927F2918F1FC00FB3C3F /* DeviceClient.swift in Sources */,
+				FA33927A2918F0BF00FB3C3F /* TabBarStore.swift in Sources */,
+				FA3392A02918FF2700FB3C3F /* HomeView.swift in Sources */,
+				FA3392732918C0A200FB3C3F /* Receipt.swift in Sources */,
+				FA3392A42918FF6B00FB3C3F /* SettingView.swift in Sources */,
+				FA3392842918F30300FB3C3F /* LoggerClient.swift in Sources */,
+				FA3392712918C09600FB3C3F /* User.swift in Sources */,
+				FA3392782918F0B700FB3C3F /* TabBarView.swift in Sources */,
+				FA3392A62919061700FB3C3F /* AppDelegateStore.swift in Sources */,
 				FAA0A48E2916416D00DFF749 /* MoneySaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA3392912918F62500FB3C3F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3392902918F62500FB3C3F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FAA0A4962916416F00DFF749 /* Debug */ = {
@@ -269,6 +480,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MoneySaver/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Money Saver";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +509,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MoneySaver/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Money Saver";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +550,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA2970D62919163600B09CD9 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA3392852918F38500FB3C3F /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FA3392992918FBBF00FB3C3F /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols.git";
+			requirement = {
+				branch = stable;
+				kind = branch;
+			};
+		};
+		FAA0A49D291644CE00DFF749 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA2970D72919163600B09CD9 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2970D62919163600B09CD9 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = Rswift;
+		};
+		FA2970D92919163600B09CD9 /* RswiftDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2970D62919163600B09CD9 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = RswiftDynamic;
+		};
+		FA3392862918F38500FB3C3F /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3392852918F38500FB3C3F /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+		FA33929A2918FBBF00FB3C3F /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3392992918FBBF00FB3C3F /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+		FAA0A49E291644CE00DFF749 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA0A49D291644CE00DFF749 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		FAA0A4A0291644CE00DFF749 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA0A49D291644CE00DFF749 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAA0A4822916416D00DFF749 /* Project object */;
 }
