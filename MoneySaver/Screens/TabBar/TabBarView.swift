@@ -35,7 +35,7 @@ struct TabBarView: View {
                     case .setting:
                         SettingView()
                     }
-                }
+                }.tabItem(type.label).tag(type)
             }
         }
     }
@@ -59,5 +59,20 @@ extension TabBarItemType {
         case .setting:
             return .gearshapeCircle
         }
+    }
+    
+    func label() -> Label<Text, Image> {
+        Label(title, systemSymbol: symbol)
+    }
+}
+
+struct TabBarView_Previews: PreviewProvider {
+    static var previews: some View {
+        TabBarView(
+            store: .init(
+                initialState: .init(),
+                reducer: AppReducer()
+            )
+        )
     }
 }

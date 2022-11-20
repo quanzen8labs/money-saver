@@ -11,10 +11,12 @@ import ComposableArchitecture
 struct AppReducer: ReducerProtocol {
     struct State: Equatable {
         var tabBarState = TabBarReducer.State.init()
+        var settingState = SettingReducer.State.init()
     }
 
     enum Action {
         case tabBar(TabBarReducer.Action)
+        case setting(SettingReducer.Action)
     }
     
     func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
