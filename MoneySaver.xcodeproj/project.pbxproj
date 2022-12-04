@@ -24,6 +24,8 @@
 		FA3392A42918FF6B00FB3C3F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A32918FF6B00FB3C3F /* SettingView.swift */; };
 		FA3392A62919061700FB3C3F /* AppDelegateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A52919061700FB3C3F /* AppDelegateStore.swift */; };
 		FA3392A829190EB900FB3C3F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3392A729190EB900FB3C3F /* R.generated.swift */; };
+		FA6FF62D292E21640086CB22 /* SpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FF62C292E21640086CB22 /* SpendingView.swift */; };
+		FA6FF62F292E233B0086CB22 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FF62E292E233B0086CB22 /* Category.swift */; };
 		FAA0A48E2916416D00DFF749 /* MoneySaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0A48D2916416D00DFF749 /* MoneySaverApp.swift */; };
 		FAA0A4922916416F00DFF749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA0A4912916416F00DFF749 /* Assets.xcassets */; };
 		FAA0A4952916416F00DFF749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA0A4942916416F00DFF749 /* Preview Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		FA3392A32918FF6B00FB3C3F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		FA3392A52919061700FB3C3F /* AppDelegateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateStore.swift; sourceTree = "<group>"; };
 		FA3392A729190EB900FB3C3F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		FA6FF62C292E21640086CB22 /* SpendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingView.swift; sourceTree = "<group>"; };
+		FA6FF62E292E233B0086CB22 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		FAA0A48A2916416D00DFF749 /* MoneySaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneySaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA0A48D2916416D00DFF749 /* MoneySaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySaverApp.swift; sourceTree = "<group>"; };
 		FAA0A4912916416F00DFF749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			children = (
 				FA3392702918C09600FB3C3F /* User.swift */,
 				FA3392722918C0A200FB3C3F /* Receipt.swift */,
+				FA6FF62E292E233B0086CB22 /* Category.swift */,
 			);
 			path = Enities;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 		FA33929C2918FBFE00FB3C3F /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FABE68B12930F2A200CF0139 /* SubViews */,
 				FA33929F2918FF2700FB3C3F /* HomeView.swift */,
 			);
 			path = HomeScreen;
@@ -219,6 +225,14 @@
 				FA33929E2918FC1400FB3C3F /* SettingScreen */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		FABE68B12930F2A200CF0139 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA6FF62C292E21640086CB22 /* SpendingView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 		FAF61ED2291A1FD8008460EF /* Models */ = {
@@ -349,6 +363,7 @@
 			files = (
 				FA3392822918F26900FB3C3F /* DeviceUtil.swift in Sources */,
 				FAF61ECD291A1DC5008460EF /* SettingStore.swift in Sources */,
+				FA6FF62F292E233B0086CB22 /* Category.swift in Sources */,
 				FA3392A829190EB900FB3C3F /* R.generated.swift in Sources */,
 				FA3392982918FA3000FB3C3F /* AppStore.swift in Sources */,
 				FA3392A22918FF5300FB3C3F /* CalendarView.swift in Sources */,
@@ -363,6 +378,7 @@
 				FA3392782918F0B700FB3C3F /* TabBarView.swift in Sources */,
 				FA3392A62919061700FB3C3F /* AppDelegateStore.swift in Sources */,
 				FAF61ED5291A1FE9008460EF /* Setting.swift in Sources */,
+				FA6FF62D292E21640086CB22 /* SpendingView.swift in Sources */,
 				FAA0A48E2916416D00DFF749 /* MoneySaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct Receipt {
+struct Receipt: Identifiable {
     let id: String
     let amount: Double
     let note: String?
     let date: Date
     let type: ReceiptType
+    let category: Category
 }
 
 enum ReceiptType {

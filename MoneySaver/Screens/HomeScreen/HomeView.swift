@@ -10,8 +10,17 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView {
-            headerView
-                .navigationBarTitleDisplayMode(.large)
+            VStack() {
+                headerView
+                SpendingView(receipts: [
+                    Receipt(id: "0",
+                            amount: 1000,
+                            note: "Uống cafe với Long",
+                            date: .now,
+                            type: .income,
+                            category: .coffee)
+                ])
+            }
                 .toolbar {
                     toolBarContent
                 }
@@ -25,19 +34,19 @@ private extension HomeView {
             VStack(alignment: .leading) {
                 Text(R.string.localizable.homeNavigationWelcomeBack())
                     .font(.callout)
-                Text("Zhafira").font(.headline)
+                Text("Quân").font(.headline)
             }
         }
     }
     
     @ViewBuilder var headerView: some View {
-        ZStack {
-            Rectangle().foregroundColor(Color.green).frame(height: 200, alignment: .top)
-            VStack(alignment: .leading) {
-                Text("Balance")
-                Text("IDR 895.000")
+        ZStack(alignment: .center, content: {
+            Rectangle().frame(height: 80, alignment: .top).foregroundColor(Color.clear)
+            VStack(alignment: .center) {
+                Text("Spent this week").font(.callout).foregroundColor(Color.black.opacity(0.5))
+                Text("895.000 VNĐ").font(Font.title2).fontWeight(.semibold)
             }.padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))
-        }
+        })
     }
 }
 
